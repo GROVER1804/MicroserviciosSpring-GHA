@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: gha-gateway-server
+  profiles:
+    active: development
+  config:
+    import: optional:configserver:http://grover:huisa@localhost:7070
